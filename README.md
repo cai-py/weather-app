@@ -27,6 +27,102 @@ This Weather App is a simple web application that provides users with real-time 
 
    ```bash
    git clone https://github.com/yourusername/weather-app.git
+   ```
+
+2. Install dependencies:
+
+	```bash
+	cd weather-app
+	npm install
+	```
+3. Start the development server
+	```
+	npm run dev
+	```
+4. Open your web browser and visit `http://localhost:3000` to view the app
+
+### API Integration
+
+- The app fetches weather data from the OpenWeatherMap API.
+- It uses environment variables to securely store the API URL and API key.
+- The API response is processed and displayed to the user.
+
+### Custom Styling
+
+- Custom CSS styles are applied to create a steampunk-themed design.
+- The design is visually appealing and complements the weather data display.
+
+## Future Improvements
+
+This Weather App can be further enhanced with the following features:
+
+- **Search by Location**: Implement the ability for users to search for weather information in different cities.
+- **Unit Conversion**: Allow users to switch between metric and imperial units for temperature, wind speed, and other measurements.
+- **Error Handling**: Enhance error handling to provide informative messages when API requests fail.
+- **Mobile Responsiveness**: Optimize the app's layout for mobile devices.
+- **Localization**: Add support for multiple languages and date/time formats to cater to a global audience.
+
+## Screenshots
+
+![Weather App Screenshot](/screenshots/weather-app-screenshot.png)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
+
+## Author
+
+- Your Name
+- GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
